@@ -1,0 +1,22 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+
+    int main() 
+    {
+    // int telur = 3000*5;
+    // int mie = 5000*3;
+    // int kecap = 1500*2;
+    int telur = 3000, mie = 5000, kecap = 1500;
+    printf("total harga telur %d\n", telur);
+    int total_belajaan = telur + mie + kecap;
+    printf("Total belanjaan andi adalah %d", total_belajaan);
+    return 0;
+    }
+  
